@@ -105,4 +105,7 @@ if (playerScore >= GOAL) {
 } else if (enemyScore >= GOAL) {
   console.log(`CPU Wins the Game!`);
   console.log(`Player Score: ${playerScore}\nCPU Score: ${enemyScore}`);
+} else {
+  console.log("ULTIMATE DRAW");
+  console.log(`Player Score: ${playerScore}\nCPU Score: ${enemyScore}`);
 }
