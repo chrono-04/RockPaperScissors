@@ -1,20 +1,3 @@
-// Pseudocode
-// create user input variable       DONE
-// create enemyGuess variable       DONE
-// assign enemyGuess random choice between 1 - 3        DONE
-// create a function that assign choice based on number generated   DONE
-// 1.rock 2.paper 3.scissors
-// compare userInput to enemyGuess    DONE
-// rock -> scissors
-// scissors -> paper
-// paper -> rocks
-// while playerScore < 5 or enemyScore < 5
-// keep playing
-// if playerScore == 5 or enemyScore == 5
-// Game End
-// whoever gets to 3 first wins
-// A little bit different from the odin instructions but I want to implement a best of 5 :)
-
 let playerScore = 0,
   enemyScore = 0;
 
